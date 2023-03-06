@@ -1,0 +1,25 @@
+body{
+    background-image: url(green-waves.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+}
+
+.borderImg {
+    width: 120px;
+    height: 150px;
+    border: 2px dotted blue;
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 2px 2px 3px lightgray;
+}
+
+h2 {
+    color: rgb(153, 237, 253);
+    text-shadow: 1px 1px 5px darkblue;
+}

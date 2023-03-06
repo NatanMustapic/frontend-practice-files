@@ -1,0 +1,26 @@
+.container {
+    background-color: aqua;
+    height: 2rem;
+}
+
+.container-fluid {
+    /*fluid container take 100% width of the screen*/
+    background-color: purple;
+    height: 5rem;
+}
+
+.row {
+    background-color: yellow;
+    height: 4.7rem;
+}
+
+[class*=col-] {
+    /*hvata sve elemente unutar klase elementa koji u sebi ima "col-"*/
+    background-color: turquoise;
+    height: 4.2rem;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+#posebni {
+    background-color: pink;
+}

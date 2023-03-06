@@ -1,0 +1,14 @@
+.container {
+    background: linear-gradient(rgb(153, 237, 253), rgb(255, 255, 255));
+    box-shadow: 3px 5px 3px lightgray;
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 2px 2px 3px lightgray;
+}
+
+h2 {
+    color: rgb(153, 237, 253);
+    text-shadow: 1px 1px 5px darkblue;
+}

@@ -1,0 +1,32 @@
+ body{
+    background-image: url(green-waves.jpg);
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+
+.container {
+    text-align: center;
+}
+
+.borderImg {
+    width: 120px;
+    height: 150px;
+    border: 2px dotted blue;
+}
+
+h1, h2, h3 { /*grupiranje*/
+    color: #fff;
+    text-shadow: 2px 2px 3px lightgray;
+    line-height: 1rem;
+    font-family: sans-serif;
+}
+
+ul li { /*decendens*/
+    color: darkorange;
+    font-size: 20px;
+}
+
+ul > li { /*child selector*/
+    color: yellow;
+    font-style: italic;
+}

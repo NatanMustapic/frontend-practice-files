@@ -1,0 +1,55 @@
+ body{
+    background-image: url(green-waves.jpg);
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+
+#foo {  /*id selector*/
+    color:red;
+}
+
+[id="foo"]{  /*id selector*/
+    color: cyan;
+}
+
+.container h1 {  /*class selector*/
+    color: blueviolet;
+}
+
+div h1 {  /*class selector*/
+    color: greenyellow;
+}
+
+.container {
+    text-align: center;
+}
+
+.borderImg {
+    width: 120px;
+    height: 150px;
+    border: 2px dotted blue;
+}
+
+h1, h2, h3 { /*grupiranje*/
+    color: #fff;
+    text-shadow: 2px 2px 3px lightgray;
+    line-height: 1rem;
+    font-family: sans-serif;
+}
+
+h2 {
+    color: rgb(153, 237, 253);
+    text-shadow: 1px 1px 5px darkblue;
+}
+
+/*jednake su vrste selektora (elementi) tako da prioritet uzima ovaj koji je ispod*/
+
+ul li { /*decendens*/
+    color: darkorange;
+    font-size: 20px;
+}
+
+ul > li { /*child selector*/
+    color: yellow;
+    font-style: italic;
+}

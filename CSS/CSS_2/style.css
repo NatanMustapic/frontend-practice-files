@@ -1,0 +1,22 @@
+body {
+    background-color: brown;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: auto; /*centrira element u sredinu ekrana tako da stavlja jednaku udaljenost sa obe dvije strane elementa do ekrana*/
+}
+
+#circle { /*id ne koristimo toliko za css već više za interakciju js scripte s HTML kodom*/
+    color: darkred;
+    font-size: 40px;
+    text-align: center;
+}

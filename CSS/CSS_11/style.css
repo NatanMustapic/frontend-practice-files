@@ -1,0 +1,155 @@
+html {
+    font-family: "Times New Roman", serif, sans-serif;
+
+}
+
+body {
+    /*background-image: url(green-waves.jpg);
+    background-repeat: no-repeat;
+    background-size:auto;*/
+
+    background-color: #444;
+    /*text-align: center;*/
+}
+
+img {
+    max-width: 100%;
+    /*drzi sliku u viewportu*/
+    height: auto;
+    padding: 5px;
+    opacity: 0.5;
+    margin: auto;
+    display: block;
+}
+
+.borderImg {
+    width: 120px;
+    height: 150px;
+    border-radius: 10%;
+    border: 2px solid #ddd;
+    padding: 5px;
+}
+
+button {
+    color: white;
+    background: red;
+    border-radius: 12px;
+    border: none;
+    font-size: 25px;
+    padding: 10px 20px;
+}
+
+h1,
+h2,
+h3 {
+    /*grupiranje*/
+    color: #fff;
+    text-shadow: 2px 2px 3px lightgray;
+    line-height: 1rem;
+    font-family: sans-serif;
+}
+
+h2 {
+    color: rgb(153, 237, 253);
+    text-shadow: 1px 1px 5px darkblue;
+
+    font-size: 30px;
+}
+
+.formating {
+    font-size: 25px;
+    line-height: 2em;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: yellow;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+}
+
+ul li {
+    /*decendens*/
+    color: darkorange;
+    font-size: 20px;
+}
+
+ul>li {
+    /*child selector*/
+    color: yellow;
+    font-style: italic;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+
+}
+
+.row::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    /*hvatamo sve elemente i sa paddingom i marginama i bolje održavamo njihove dimenzije*/
+}
+
+[class*="col-"] {
+    border: 2px solid red;
+    padding: 15px;
+    float: left;
+}
